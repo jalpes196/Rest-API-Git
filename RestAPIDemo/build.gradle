@@ -25,5 +25,28 @@ dependencies {
 
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
+    
+    
+    
+    // https://mvnrepository.com/artifact/com.fasterxml/jackson-module-json-org
+    compile group: 'com.fasterxml', name: 'jackson-module-json-org', version: '0.9.1'
+    
+    // https://mvnrepository.com/artifact/org.json/json
+	compile group: 'org.json', name: 'json', version: '20090211'
+    
+    // https://mvnrepository.com/artifact/org.eclipse.jetty/jetty-server
+	compile group: 'org.eclipse.jetty', name: 'jetty-server', version: '9.4.8.v20171121'
+    
+    // https://mvnrepository.com/artifact/org.eclipse.jetty/jetty-servlet
+	compile group: 'org.eclipse.jetty', name: 'jetty-servlet', version: '9.4.8.v20171121'
+    
+    // https://mvnrepository.com/artifact/org.glassfish.jersey.containers/jersey-container-servlet-core
+     compile group: 'org.glassfish.jersey.containers', name: 'jersey-container-servlet-core', version: '2.26'
+    
+    
+    
+    // https://mvnrepository.com/artifact/org.glassfish.jersey.inject/jersey-hk2
+    compile group: 'org.glassfish.jersey.inject', name: 'jersey-hk2', version: '2.26'
+    
 }
 
